@@ -44,9 +44,7 @@ public class DatabaseHelper extends SQLiteOpenHelper{
         values.put(TodosEntry.COLUMN_CATEGORY, String.valueOf(idCat));
         values.put(TodosEntry.COLUMN_TEXT, "Welcome to Todos!");
         long idTodo = db.insert(TodosEntry.TABLE_NAME, null, values);
-
     }
-
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         db.execSQL("DROP TABLE IF EXISTS " + TodosEntry.TABLE_NAME);
