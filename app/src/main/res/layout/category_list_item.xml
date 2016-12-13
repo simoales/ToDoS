@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable name="category" type="com.example.todos.model.Category"/>
+    </data>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="4dp">
+
+        <ImageView
+            android:id="@+id/imageCatIcon"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/tag_text_outline"
+            android:tint="@color/colorPrimary"
+            />
+
+        <TextView
+            android:id="@+id/tvNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="4dp"
+            android:layout_toEndOf="@+id/imageCatIcon"
+            android:layout_toRightOf="@+id/imageCatIcon"
+            android:singleLine="true"
+            android:tag="@{category.catId}"
+            android:text="@{category.description}"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+</layout>

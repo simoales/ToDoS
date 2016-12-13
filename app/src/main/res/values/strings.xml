@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ToDoS</string>
+    <string name="action_categories">Categories</string>
+    <string name="action_delete_all_todos">Delete Todos</string>
+    <string name="action_create_test_data">Insert Test Data</string>
+    <string name="insert_new_category">Insert New Category</string>
+    <string name="action_delete_todo">Delete</string>
+    <string name="delete_categories_dialog">Do you really want to delete the category?</string>
+    <string name="delete_categories_dialog_title">Confirm</string>
+    <string name="delete_todo_dialog_title">confirm</string>
+    <string name="delete_todo_dialog">Are you sure you want to delete this Todo?</string>
+    <string name="action_show_done">Show done</string>
+    <string name="newCategory">New</string>
+    <string name="save_category">Save</string>
+    <string name="delete_category">Delete</string>
+
+    <string-array name="categories_array">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Family</item>
+        <item>Sports</item>
+        <item>Hobbies</item>
+    </string-array>
+
+</resources>

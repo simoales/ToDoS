@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ToDoS</string>
+    <string name="action_categories">Categorie</string>
+    <string name="action_create_test_data">Inserisci Dati di Test</string>
+    <string name="action_delete_all_todos">Elimina tutti i Todo</string>
+    <string name="action_delete_todo">Elimina</string>
+    <string name="action_show_done">Mostra Eseguiti</string>
+    <string name="delete_categories_dialog">Confermi la cancellazione della categoria?</string>
+    <string name="delete_categories_dialog_title">Conferma</string>
+    <string name="delete_todo_dialog">Confermi la cancellazione di questo Todo?</string>
+    <string name="delete_todo_dialog_title">Conferma</string>
+    <string name="insert_new_category">Inserisci nuova Categoria</string>
+    <string name="delete_category">Elimina</string>
+    <string name="newCategory">Nuova</string>
+    <string name="save_category">Salva</string>
+</resources>

@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="it.softwarehouse.todos.MainActivity">
+    <item
+        android:id="@+id/action_categories"
+        android:orderInCategory="100"
+        android:title="@string/action_categories"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_delete_all_todos"
+        android:orderInCategory="101"
+        android:title="@string/action_delete_all_todos"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_create_test_data"
+        android:orderInCategory="102"
+        android:title="@string/action_create_test_data"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_show_done"
+        android:orderInCategory="103"
+        android:title="@string/action_show_done"
+        app:showAsAction="never" />
+
+</menu>
